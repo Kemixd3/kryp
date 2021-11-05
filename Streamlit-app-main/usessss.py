@@ -15,8 +15,8 @@ from random import randint
 from streamlit_player import st_player
 from streamlit_autorefresh import st_autorefresh
 import altair as alt
-from __init__ import pyarmor_runtime 
-pyarmor_runtime()
+#from __init__ import pyarmor_runtime 
+#pyarmor_runtime()
 
 
 
