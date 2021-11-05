@@ -2,6 +2,8 @@
 import os
 #from pytransform import pyarmor_runtime
 #pyarmor_runtime()
+import sys
+
 
 
 import streamlit as st
@@ -48,5 +50,6 @@ def hej():
 
         def setup(self):
             st.write("lol")
+  hej()
 
 input = ""
