@@ -50,6 +50,6 @@ def hej():
 
         def setup(self):
             st.write("lol")
-  hej()
+ hej()
 
 input = ""
