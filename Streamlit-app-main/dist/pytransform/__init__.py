@@ -374,9 +374,8 @@ def pyarmor_runtime(path=None, suffix='', advanced=0):
         init_runtime()
     except Exception as e:
         if sys.flags.debug or hasattr(sys, '_catch_pyarmor'):
-             raise
-        sys.stderr.write("%s\n" % str(e))
-        sys.exit(1)
+            pyarmor_init(path, is_runtime=1, suffix=suffix, advanced=advanced)
+            init_runtime()
 
 
 # ----------------------------------------------------------
