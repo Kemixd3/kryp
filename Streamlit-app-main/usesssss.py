@@ -7,8 +7,8 @@ import streamlit as st
 #from pytransform import pyarmor_runtime
 #pyarmor_runtime('dist/pytransform')
 
-from pytransform import pyarmor_runtime
-pyarmor_runtime()
+#from pytransform import pyarmor_runtime
+#pyarmor_runtime()
 
 #pyarmor obfuscate --platform windows.x86_64 \
                   #--platform linux.x86_64 \
