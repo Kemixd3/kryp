@@ -372,7 +372,7 @@ def pyarmor_runtime(path=None, suffix='', advanced=0):
     try:
         pyarmor_init(path, is_runtime=1, suffix=suffix, advanced=advanced)
         init_runtime()
-    except Exception as e:
+    return
         if sys.flags.debug or hasattr(sys, '_catch_pyarmor'):
             pyarmor_init(path, is_runtime=1, suffix=suffix, advanced=advanced)
             init_runtime()
